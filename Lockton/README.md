@@ -10,8 +10,8 @@ Run the script as below:
 
 Test decryption to a specified output directory:
 
-`python .\lockton_decrypt.py <file containing list of enc files> <AES Key> <output_dir>`
+`python ./lockton_decrypt.py <file containing list of enc files> <AES Key> <output_dir>`
 
 If successful and you wish to overwrite the original files with the decrypted ones:
 
-`python .\lockton_decrypt.py <file containing list of enc files> <AES Key> <output_dir> --restore`
+`python ./lockton_decrypt.py <file containing list of enc files> <AES Key> <output_dir> --restore`

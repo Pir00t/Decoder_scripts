@@ -1,9 +1,9 @@
 # Dark Angels
 A POC script to decrypt files that have been encrypted by Dark Angels ransomware (Linux 2023-24 variant).
 
-Blog post on the ransomware [here]()
+I began research on this when the samples came out but didn't have time to fill in some blanks on the encryption process. Since then, the team over at ZScaler have posted an excellent blog on the inner workings [here](https://www.zscaler.com/blogs/security-research/shining-light-dark-angels-ransomware-group).
 
-_Note: this POC only works by grabbing the key from memory while debugging. The script has been developed to see if it was possible to decrypt the files and work ongoing to see if the key can be retrieved by other means._
+_Note: this POC only works by grabbing the key from memory while debugging. The script has been developed to see if it was possible to decrypt the files but the likelihood of live capture is extremely tricky and more likely not implemented._
 
 ## Prerequisites
 Either:
